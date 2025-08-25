@@ -1,0 +1,181 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(3, 18, 46);
+}
+
+/* Navigation Bar Style */
+header {
+    
+    padding: 55px 0px;
+    position: fixed;
+    width: 100%;
+    margin-left:0%;
+    height: 40px;
+
+    background: rgba(0, 0, 0, 0.4); /* bagayak transparent */
+    backdrop-filter: blur(10px);     /* content eka yata blur venava */
+    -webkit-backdrop-filter: blur(10px); /* for Safari */
+    z-index: 1000; /* keep navbar above everything */
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+
+.navbar li {
+    margin: 0 25px;
+    margin-top: -20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 8px;
+    transition: background-color 0.3s;
+}
+
+/* Hover Effect */
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    color:white;
+    margin-left: 10%;
+    
+}
+
+.content2{
+    margin-left:17% ;
+    margin-top: -2%;
+}
+
+.facebook {
+    list-style-type: none;
+    display: flex;
+}
+
+.face{
+    width: 30px;  height:30px;cursor: pointer;
+}
+
+.face:hover{
+    transform: scale(1.3);
+}
+
+
+.facebook li{
+    
+    align-items: left;
+}
+
+.button{
+    display: flex;
+    list-style-type:none;
+}
+
+.button li{
+    border: solid  white;
+    border-radius: 15px;
+    background-color: rgba(41, 202, 255,0);
+    width: 140px;
+    height: 40px;
+    color: rgb(111, 214, 255);
+    
+}
+.button li:hover{
+    background-color: rgba(41, 202, 255,1);
+    color: rgb(0, 0, 0);
+    border: solid  rgb(255, 255, 255);
+}
+
+.fotter{
+    display:flex;
+    list-style-type:none;
+    padding: 0px 90px;
+    
+}
+
+.fotter li{
+    color:white;
+}
+.fotter1{
+    display:flex;
+    list-style-type:none;
+    padding: 0px 80px;
+}
+
+.showCV{
+
+    margin-left: 0px; 
+    border: solid rgb(255, 255, 255); 
+    width: 120px; 
+    height: 35px; 
+    text-align: center; 
+    padding: 5.5px 0px; 
+    border-radius: 10px; 
+    color:white;
+    cursor: pointer;
+    
+}
+
+.showCV:hover{
+    background-color: rgba(41, 202, 255,1);
+    color:black;
+}
+
+
+
+
+
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* makes video cover the screen */
+  z-index: -1;         /* keep video in background */
+  filter: brightness(1.1) contrast(1.1);
+}
+
+
+
+
+.jump-img{
+    margin-left: -1%; 
+    margin-top: -3%; 
+    border-radius: 50%; 
+    border: solid white; 
+    width: 390px; 
+    height: 390px;  
+    filter: brightness(1.3) contrast(1.1);
+    animation: jump 3s ease forwards;
+}
+
+
+/* Keyframes for jump effect */
+@keyframes jump {
+  0%   { transform: translateY(100px); opacity: 0; }
+  25%  { transform: translateY(-30px); opacity: 0; }
+  50%  { transform: translateY(-60px); opacity: 1; }
+  75%  { transform: translateY(20px); opacity: 2;}
+  100% { transform: translateY(0); }
+}
+

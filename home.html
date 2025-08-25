@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+    <video autoplay muted loop id="bg-video">
+  <source src="background vedio.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+
+<div id="home">
+  <header class="nav">
+    <nav>
+      <!-- Logo -->
+      <img src="logo3.png" class="logo">
+
+      <!-- Hamburger button -->
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+      <!-- Navbar -->
+      <ul class="navbar" id="menu">
+        <!-- Close button (only visible on mobile) -->
+        <li class="close-btn" onclick="toggleMenu()">✖</li>
+
+        <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <li onclick="window.open('CV Resume.pdf', '_blank')">
+          <p class="showCV"><b>SHOW CV</b></p>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+
+
+
+
+
+<!--...................................................................................................................................-->
+
+<br><br><br><br><br><br><br><br><br><br>
+<div class="content">
+    <div>
+        
+        <img src="myimg.png" alt="Lakshan's image" class="jump-img"/> 
+    </div>
+    <div class="content2">
+        <br><br>
+        <h3 style="font-size: 20px;">Hello, I'm</h3>   
+        <h1 style="font-size: 50px;">Lakshan Harshana</h1> 
+        <h3 style="font-size: 23px;  margin-top: 5px;">And i'm a <x id="text" style="color: rgb(69, 182, 234);"> </x></h3>
+        
+        <p style="width: 80%; font-size: 16px; margin-top: 20px;">
+            I'm professional web developer and Cybersecurity Engineer with strong skill in HTML, 
+            CSS, JavaScript, php, python, Linux etc. I have working in this 
+            field almost 1 years and all projects are complited successfully 
+            with 100% client satisfiction.
+        </p>
+        <br>
+        <div>
+            <ul class="facebook" style="margin-left: -10px;">
+                <li style="margin: 15px 12px;"><a href="https://www.linkedin.com/in/lakshan-harshana-147766346" target="_blank"><img src="linkden.png" class="face" /></a></li>
+                <li style="margin: 15px 12px;"> <a href="https://www.facebook.com" target="_blank"> <img src="facebook.png" class="face" /></a></li>
+                <li style="margin: 15px 12px;"> <a href="https://www.gmail.com" target="_blank"> <img src="mail.png" class="face" /></a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="button">
+               <a href="#contact" style="text-decoration: none;"> <li><h3 style="text-align:center; padding:7px 0px ;cursor: pointer;">Hire Me</h3></li></a>
+               <a href="#contact" style="text-decoration: none;"> <li style="margin-left: 15px;"><h3 style="text-align:center; padding:7px 0px;cursor: pointer;">Contact Me</h3></li></a>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<br><br>
+<br><br>
+<br>
+
+<div>
+    <ul class="fotter">
+        <li class="fotter1"><h1 style="font-size: 40px;">1+ </h1> <h3 style="padding: 4px 12px;"> Years of <br> Experiance</h3> <p style="font-size: 40px; margin-top: -1%; margin-left: 40%;">|</p> </li>
+        <li class="fotter1"><h1 style="font-size: 40px;">3+</h1> <h3 style="padding: 1px 12px;">Project <br>completed</h3> <p style="font-size: 40px; margin-top: -1%; margin-left: 40%;">|</p> </li>
+        <li class="fotter1"><h1 style="font-size: 40px;">6+</h1> <h3 style="padding: 12px 12px;">Technologies</h3> <p style="font-size: 40px; margin-top: -1%; margin-left: 40%;">|</p> </li>
+        <li class="fotter1"><h1 style="font-size: 40px;">10+</h1> <h3 style="padding: 4px 12px;">Satatisfied <br>Client</h3></li>
+    </ul>
+</div>
+
+
+
+<br>
+
+
+<!-- About Me -->
+  <section class="section" id="about">
+    <h2 class="section-title" style="text-align: center;">About Me</h2>
+    <p class="section-subtitle" style="text-align: center;">Who Am I ?</p>
+    <div class="cards">
+        <article class="card">
+            <img src="myimg.png" style="width: 100px; height: 100px; border: solid white; border-radius: 50px; margin-left: 35%;"/>
+            
+            <br><br>
+            <h3 style="text-align: center;">Lakshan Harshana</h3>
+            <h3>Name :</h3>
+            <p>M.G.L.H.Karunarathna</p>
+            <br>
+            <h3>Address :</h3>
+            <p>Naula, Mathale</p>
+            <br>
+            <h3>Date of Birth :</h3>
+            <p>18/03/2003</p>
+      </article>
+
+
+      <article class="card">
+        <h3 style="text-align: center;">Education Qualification</h3>
+        <br><br>
+        <p><b>01.</b> BICT(Hons) Rajarata University Of Srilanka(UG)</p>
+        <br>
+        <p><b>02.</b> Diploma in Cybersecurity and Ethical Hacking</p>
+        <br>
+        <p><b>03.</b> ICT(NVQ L3)</p>
+        <br>
+        <p><b>04.</b> Web Design for biginer (University of Moratuva)</p>
+        <br>
+        <p><b>05.</b> python for biginer (University of Moratuva)</p>
+      </article>
+      
+      <article class="card">
+        <h3 style="text-align: center;">Work Experiance</h3>
+        <br><br>
+        <h3>DFCC Bank PLC : </h3>
+        <p>I worked for 1 year as a Marketing Officer at DFCC Bank PLC</p>
+      </article>
+
+    </div>
+  </section>
+
+
+<!-- projects -->
+  <section class="section" id="projects">
+    <h2 class="section-title" style="text-align: center;">Projects</h2><br><br>
+    <div class="cards">
+
+      <article class="card">
+        <h3>Web-Based Employee Management System</h3>
+        <br>
+        <p>I worked in a group project to develop a web-based employee management system, focusing on user management, 
+            data handling, and improving workflow efficiency.
+        </p>
+        <br><p>
+            <b>Technologies Used :</b> HTML, CSS, JavaScript, PHP, MySQL
+            </p>
+      </article>
+
+      
+      <article class="card">
+        <h3>Personal Portfolio Website</h3>
+        <br><br>
+        <p>Designed and developed my own responsive portfolio website to showcase skills, 
+            projects, and experience with a modern design and animations.</p>
+        </p>
+        <br><p>
+            <b>Technologies Used :</b> HTML, CSS, JavaScript.
+            </p>
+      </article>
+
+
+      <article class="card">
+        <h3>Windows 10 & Website Penetration Testing</h3>
+        <br>
+        <p>Completed a Windows 10 system penetration test project and performed website penetration testing to 
+            strengthen my cybersecurity skills and practical understanding of vulnerabilities.
+        </p>
+        <br><p>
+            <b>Technologies Used :</b> Windows 10, Kali Linux, Burp Suite, Nmap
+            </p>
+      </article>
+      
+    </div>
+  </section>
+  
+
+<div class="gallery">
+  <img src="Screenshot emp.png" alt="Employee System Screenshot" />
+  <img src="portfolio ss.png" alt="Portfolio Screenshot" />
+  <img src="sqlmap.jpg" alt="SQLmap Screenshot" />
+</div>
+
+  <!--
+  <div style="display: flex; gap:20px; justify-content: center; margin-top: -30px;">
+    <img src="Screenshot emp.png" style="width: 400px; height: 240px; border: solid white;"/>
+    <img src="portfolio ss.png" style="width: 400px; height: 240px; border: solid white;"/>
+    <img src="sqlmap.jpg" style="width: 400px; height: 240px; border: solid white;"/>
+  </div>
+-->
+
+<br><br><br><br><br>
+
+
+  <!-- Skills -->
+  <section class="section" id="skills">
+    <h2 class="section-title" style="text-align: center;">Skills</h2>
+    <p class="section-subtitle" style="text-align: center;">Tools & technologies</p>
+
+    <br>
+    <div class="skills-grid">
+      <div class="skill">
+        <div class="skill-top">
+          <span>HTML</span><span>50%</span>
+        </div>
+        <div class="bar"><div style="width:50%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-top">
+          <span>CSS / Tailwind</span><span>50%</span>
+        </div>
+        <div class="bar"><div style="width:50%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-top">
+          <span>JavaScript</span><span>50%</span>
+        </div>
+        <div class="bar"><div style="width:50%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-top">
+          <span>Flutter</span><span>50%</span>
+        </div>
+        <div class="bar"><div style="width:50%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-top">
+          <span>React</span><span>50%</span>
+        </div>
+        <div class="bar"><div style="width:50%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-top">
+          <span>Git / GitHub</span><span>50%</span>
+        </div>
+        <div class="bar"><div style="width:50%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  
+
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <h2 class="section-title" style="text-align: center;">Contact</h2>
+    <p class="section-subtitle" style="text-align: center;">Let’s build something great</p>
+
+    <div class="contact-wrap">
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! I will get back to you.');">
+        <div class="row">
+          <input type="text" placeholder="Your Name" required/>
+          <input type="email" placeholder="Your Email" required/>
+        </div>
+        <input type="text" placeholder="Subject" required/>
+        <br><br>
+        <textarea rows="6" placeholder="Message" required></textarea>
+        <br><br>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <br>
+        <div class="info-item"><i class="fa-solid fa-envelope"></i><span>Name : Lakshan11430@gmail.com</span></div>
+        <div class="info-item"><i class="fa-solid fa-phone"></i><span>Mobile  :  +94 762617562</span></div>
+        <div class="info-item"><i class="fa-solid fa-location-dot"></i><span>Address : Naula, Matale</span></div>
+        <br><br>
+        <div class="contact">
+            <br>
+            <a href="https://www.gmail.com" target="_blank"><img src="mail.png" class="face" style="width: 40px; height: 40px; "/></a>
+            <a href="https://www.linkedin.com/in/lakshan-harshana-147766346" target="_blank"><img src="linkden.png" class="face" style="width: 40px; height: 40px; "/></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="facebook.png" class="face" style="width: 40px; height: 40px; "/></a>
+            <a href="https://www.github.com" target="_blank"><img src="github.png" class="face" style="width: 40px; height: 40px; "/></a>
+            <a href="https://www.whatsapp.com" target="_blank"><img src="whatsapp.png" class="face" style="width: 40px; height: 40px; "/></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Lakshan — All rights reserved.</p>
+    <a class="back-to-top" href="#top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+  </footer>
+
+
+
+
+<script>
+const video = document.getElementById("bg-video");
+
+video.addEventListener("timeupdate", () => {
+  // Check if video is within the last 1 second
+  if (video.duration - video.currentTime <= 0.2) {
+    video.pause();                  // freeze
+    video.currentTime = video.duration; // ensure last frame shows
+  }
+});
+</script>
+
+<script src="java script.js"></script>
+<script src="style.js"></script>
+
+
+
+<script>
+const toggle = document.getElementById("menu-toggle");
+const navbar = document.querySelector(".navbar");
+
+toggle.addEventListener("click", () => {
+  navbar.classList.toggle("show");
+});
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("active");
+}
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
